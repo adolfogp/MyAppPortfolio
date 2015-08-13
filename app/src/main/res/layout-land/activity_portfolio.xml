@@ -12,7 +12,7 @@
         android:gravity="center"
         style="@android:style/TextAppearance.Large"
         android:layout_weight="1"
-        android:text="@string/title" android:layout_width="match_parent"
+        android:text="@string/textview_title" android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <LinearLayout
@@ -28,21 +28,21 @@
             <Button
                 android:layout_weight="1"
                 android:id="@+id/button_spotify_app"
-                android:text="@string/spotify_streamer_app"
+                android:text="@string/button_spotify_app"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:layout_weight="1"
                 android:id="@+id/button_scores_app"
-                android:text="@string/scores_app"
+                android:text="@string/button_scores_app"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:layout_weight="1"
                 android:id="@+id/button_library_app"
-                android:text="@string/library_app"
+                android:text="@string/button_library_app"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -56,21 +56,21 @@
             <Button
                 android:layout_weight="1"
                 android:id="@+id/button_build_it_app"
-                android:text="@string/build_it_bigger_app"
+                android:text="@string/button_build_it_bigger_app"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:layout_weight="1"
                 android:id="@+id/button_xyz_reader_app"
-                android:text="@string/xyz_reader_app"
+                android:text="@string/button_xyz_reader_app"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:layout_weight="1"
                 android:id="@+id/button_capstone_app"
-                android:text="@string/capstone_app"
+                android:text="@string/button_capstone_app"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
