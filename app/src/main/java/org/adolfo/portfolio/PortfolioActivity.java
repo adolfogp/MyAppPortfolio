@@ -24,7 +24,7 @@ public class PortfolioActivity extends AppCompatActivity {
     }
 
     /**
-     * Assings the {@link android.view.View.OnClickListener}s to the Activity's buttons.
+     * Assigns the {@link android.view.View.OnClickListener}s to the Activity's buttons.
      */
     private void setListeners() {
         findViewById(R.id.button_spotify_app).setOnClickListener(new View.OnClickListener() {
