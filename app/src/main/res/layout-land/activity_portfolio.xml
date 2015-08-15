@@ -14,101 +14,98 @@
   ~ limitations under the License.
   -->
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".PortfolioActivity">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:paddingBottom="@dimen/activity_vertical_margin"
+             android:paddingLeft="@dimen/activity_horizontal_margin"
+             android:paddingRight="@dimen/activity_horizontal_margin"
+             android:paddingTop="@dimen/activity_vertical_margin"
+             tools:context=".PortfolioActivity">
 
-    <TextView
-        style="@android:style/TextAppearance.Large"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/textview_title" />
+    <TableRow android:layout_weight="1">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="6"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="0dp"
+        <TextView
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:gravity="center"
+            android:text="@string/textview_title"/>
 
-            <Button
-                android:id="@+id/button_spotify_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/button_spotify_app"
-                android:theme="@style/OrangeButton" />
+    </TableRow>
 
-            <Button
-                android:id="@+id/button_scores_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/button_scores_app"
-                android:theme="@style/OrangeButton" />
+    <TableRow android:layout_weight="1">
 
-            <Button
-                android:id="@+id/button_library_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/button_library_app"
-                android:theme="@style/OrangeButton" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
+        <Button
+            android:id="@+id/button_spotify_app"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:text="@string/button_spotify_app"
+            android:theme="@style/OrangeButton"/>
 
-            <Button
-                android:id="@+id/button_build_it_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/button_build_it_bigger_app"
-                android:theme="@style/OrangeButton" />
+        <Button
+            android:id="@+id/button_build_it_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_build_it_bigger_app"
+            android:theme="@style/OrangeButton"/>
 
-            <Button
-                android:id="@+id/button_xyz_reader_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/button_xyz_reader_app"
-                android:theme="@style/OrangeButton" />
+    </TableRow>
 
-            <Button
-                android:id="@+id/button_capstone_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/button_capstone_app"
-                android:theme="@style/RedButton" />
+    <TableRow android:layout_weight="1">
 
-        </LinearLayout>
+        <Button
+            android:id="@+id/button_scores_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_scores_app"
+            android:theme="@style/OrangeButton"/>
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/button_xyz_reader_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_xyz_reader_app"
+            android:theme="@style/OrangeButton"/>
 
-    <TextView
-        style="@android:style/TextAppearance.Large"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center" />
+    </TableRow>
 
-</LinearLayout>
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_library_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_library_app"
+            android:theme="@style/OrangeButton"/>
+
+        <Button
+            android:id="@+id/button_capstone_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_capstone_app"
+            android:theme="@style/RedButton"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <TextView
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"/>
+    </TableRow>
+
+
+</TableLayout>
