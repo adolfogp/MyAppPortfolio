@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.adolfo.portfolio;
+package mx.com.adolfogarcia.portfolio;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

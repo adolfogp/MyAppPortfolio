@@ -17,7 +17,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.adolfo.portfolio" >
+    package="mx.com.adolfogarcia.portfolio" >
 
     <application
         android:allowBackup="true"
