@@ -15,8 +15,9 @@
  */
 
 /**
- * Contains classes related to the <i>My App Portfolio</i> project.
+ * Contains the activities of the <i>My App Portfolio</i> project.
  *
+ * @see android.app.Activity
  * @author Jesús Adolfo García Pasquel
  */
-package mx.com.adolfogarcia.portfolio;
+package mx.com.adolfogarcia.portfolio.activity;

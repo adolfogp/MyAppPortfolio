@@ -15,8 +15,11 @@
  */
 
 /**
- * Contains classes related to the <i>My App Portfolio</i> project.
+ * Contains the
+ * <a href="http://tech.vg.no/2015/04/06/dont-forget-the-view-model/">View
+ * Models</a> of the <i>My App Portfolio</i> project.
  *
+ * @see android.app.Activity
  * @author Jesús Adolfo García Pasquel
  */
-package mx.com.adolfogarcia.portfolio;
+package mx.com.adolfogarcia.portfolio.model.view;
